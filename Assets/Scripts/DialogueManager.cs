@@ -2,12 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.UI;
 using UnityEngine;
+using TMPro;
 
 public class DialogueManager : MonoBehaviour
 {
     public Animator animator;
-    public Text nameText;
-    public Text dialogueText;
+    public TextMeshProUGUI nameText;
+    public TextMeshProUGUI dialogueText;
 
     private Queue<string> sentences;     //uses FIFO (first in first out) collection
     
@@ -45,10 +46,24 @@ public class DialogueManager : MonoBehaviour
         }
 
         string sentence = sentences.Dequeue();
-        dialogueText.text = sentence;
-        //Debug.Log(sentence);
+        StopAllCoroutines();    //Prevents multiple coroutines from running
+        StartCoroutine(TypeSentence(sentence));     //types sentence out letter by letter
 
+        //dialogueText.text = sentence;     //just makes the sentence appear all at once
+
+        //Debug.Log(sentence);
     }
+
+    IEnumerator TypeSentence (string sentence)
+    {
+        dialogueText.text = "";
+        foreach (char letter in sentence.ToCharArray())
+        {
+            dialogueText.text += letter;
+            yield return null;  //waits a single frame
+        }
+    }
+
 
     void EndDialogue()
     {
