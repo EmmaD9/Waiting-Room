@@ -236,15 +236,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5300805648396865866, guid: 3c8cff18ea73c0849a3b7057b5200079, type: 3}
       propertyPath: m_Color.b
-      value: 0.40784314
+      value: 0.38039216
       objectReference: {fileID: 0}
     - target: {fileID: 5300805648396865866, guid: 3c8cff18ea73c0849a3b7057b5200079, type: 3}
       propertyPath: m_Color.g
-      value: 0.5428712
+      value: 0.38039216
       objectReference: {fileID: 0}
     - target: {fileID: 5300805648396865866, guid: 3c8cff18ea73c0849a3b7057b5200079, type: 3}
       propertyPath: m_Color.r
-      value: 0.8784314
+      value: 0.38039216
       objectReference: {fileID: 0}
     - target: {fileID: 6251688770030856988, guid: 3c8cff18ea73c0849a3b7057b5200079, type: 3}
       propertyPath: m_Name
@@ -254,6 +254,10 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: d4ef2482eb5131a4eb76720bb737b9a9, type: 2}
+    - target: {fileID: 8438788473055348879, guid: 3c8cff18ea73c0849a3b7057b5200079, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -13.5
+      objectReference: {fileID: 0}
     - target: {fileID: 8580932083206639524, guid: 3c8cff18ea73c0849a3b7057b5200079, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 1
@@ -313,7 +317,7 @@ Transform:
   m_GameObject: {fileID: 51035479}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -224.90001, z: 0}
+  m_LocalPosition: {x: 0, y: -239.00002, z: 0}
   m_LocalScale: {x: 0.8, y: 0.8, z: 0.8}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -546,15 +550,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5300805648396865866, guid: 3c8cff18ea73c0849a3b7057b5200079, type: 3}
       propertyPath: m_Color.b
-      value: 0.8784314
+      value: 0.38039216
       objectReference: {fileID: 0}
     - target: {fileID: 5300805648396865866, guid: 3c8cff18ea73c0849a3b7057b5200079, type: 3}
       propertyPath: m_Color.g
-      value: 0.46172476
+      value: 0.38039216
       objectReference: {fileID: 0}
     - target: {fileID: 5300805648396865866, guid: 3c8cff18ea73c0849a3b7057b5200079, type: 3}
       propertyPath: m_Color.r
-      value: 0.40784314
+      value: 0.38039216
       objectReference: {fileID: 0}
     - target: {fileID: 6251688770030856988, guid: 3c8cff18ea73c0849a3b7057b5200079, type: 3}
       propertyPath: m_Name
@@ -564,6 +568,10 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: d4ef2482eb5131a4eb76720bb737b9a9, type: 2}
+    - target: {fileID: 8438788473055348879, guid: 3c8cff18ea73c0849a3b7057b5200079, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -13.5
+      objectReference: {fileID: 0}
     - target: {fileID: 8580932083206639524, guid: 3c8cff18ea73c0849a3b7057b5200079, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 1
@@ -785,7 +793,7 @@ Transform:
   m_GameObject: {fileID: 358978991}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -224.90001, z: 0}
+  m_LocalPosition: {x: 0, y: -239.00002, z: 0}
   m_LocalScale: {x: 0.8, y: 0.8, z: 0.8}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1554,7 +1562,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1932872264094718948, guid: 3c8cff18ea73c0849a3b7057b5200079, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0.000024795532
+      value: 5.4
       objectReference: {fileID: 0}
     - target: {fileID: 1932872264094718948, guid: 3c8cff18ea73c0849a3b7057b5200079, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1574,15 +1582,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5300805648396865866, guid: 3c8cff18ea73c0849a3b7057b5200079, type: 3}
       propertyPath: m_Color.b
-      value: 0.35866857
+      value: 0.38039216
       objectReference: {fileID: 0}
     - target: {fileID: 5300805648396865866, guid: 3c8cff18ea73c0849a3b7057b5200079, type: 3}
       propertyPath: m_Color.g
-      value: 0.49056602
+      value: 0.38039216
       objectReference: {fileID: 0}
     - target: {fileID: 5300805648396865866, guid: 3c8cff18ea73c0849a3b7057b5200079, type: 3}
       propertyPath: m_Color.r
-      value: 0.3723257
+      value: 0.38039216
       objectReference: {fileID: 0}
     - target: {fileID: 6251688770030856988, guid: 3c8cff18ea73c0849a3b7057b5200079, type: 3}
       propertyPath: m_Name
@@ -1592,6 +1600,10 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: d4ef2482eb5131a4eb76720bb737b9a9, type: 2}
+    - target: {fileID: 8438788473055348879, guid: 3c8cff18ea73c0849a3b7057b5200079, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -13.5
+      objectReference: {fileID: 0}
     - target: {fileID: 8580932083206639524, guid: 3c8cff18ea73c0849a3b7057b5200079, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 1
@@ -2127,7 +2139,7 @@ Transform:
   m_GameObject: {fileID: 1135404092}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -224.90001, z: 0}
+  m_LocalPosition: {x: 0, y: -239, z: 0}
   m_LocalScale: {x: 0.8, y: 0.8, z: 0.8}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2310,7 +2322,7 @@ Transform:
   m_GameObject: {fileID: 1433167713}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -224.90001, z: 0}
+  m_LocalPosition: {x: 0, y: -239.00002, z: 0}
   m_LocalScale: {x: 0.8, y: 0.8, z: 0.8}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3308,6 +3320,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Dialogue
       objectReference: {fileID: 0}
+    - target: {fileID: 5300805648396865866, guid: 3c8cff18ea73c0849a3b7057b5200079, type: 3}
+      propertyPath: m_Color.b
+      value: 0.3773585
+      objectReference: {fileID: 0}
+    - target: {fileID: 5300805648396865866, guid: 3c8cff18ea73c0849a3b7057b5200079, type: 3}
+      propertyPath: m_Color.g
+      value: 0.3773585
+      objectReference: {fileID: 0}
+    - target: {fileID: 5300805648396865866, guid: 3c8cff18ea73c0849a3b7057b5200079, type: 3}
+      propertyPath: m_Color.r
+      value: 0.3773585
+      objectReference: {fileID: 0}
     - target: {fileID: 6251688770030856988, guid: 3c8cff18ea73c0849a3b7057b5200079, type: 3}
       propertyPath: m_Name
       value: Red Dialogue
@@ -3316,6 +3340,10 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: d4ef2482eb5131a4eb76720bb737b9a9, type: 2}
+    - target: {fileID: 8438788473055348879, guid: 3c8cff18ea73c0849a3b7057b5200079, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -13.5
+      objectReference: {fileID: 0}
     - target: {fileID: 8580932083206639524, guid: 3c8cff18ea73c0849a3b7057b5200079, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 1
