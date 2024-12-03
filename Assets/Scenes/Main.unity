@@ -38,6 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
+  m_IndirectSpecularColor: {r: 0.1833968, g: 0.22728157, b: 0.2960737, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -654,7 +655,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d991958425f853544a9710ed7dd85d2f, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1.9994297
+      value: -0.76
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d991958425f853544a9710ed7dd85d2f, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1338,7 +1339,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: a695be0284b9e1c4b9752714b539fcf2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.0567007
+      value: -1.48
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a695be0284b9e1c4b9752714b539fcf2, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2077,7 +2078,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d991958425f853544a9710ed7dd85d2f, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1.9994297
+      value: -0.7600002
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d991958425f853544a9710ed7dd85d2f, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2966,7 +2967,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 85198f707468c5640b062000b31a012b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 5.8332996
+      value: 7.03
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 85198f707468c5640b062000b31a012b, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2974,7 +2975,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 85198f707468c5640b062000b31a012b, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2.0594301
+      value: -0.84
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 85198f707468c5640b062000b31a012b, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3057,12 +3058,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 642145135268d1b41952110f75f053df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  detectionRadius: 5
-  detectionLayer:
-    m_Bits: 4294967295
-  triggerKey: 101
-  isRigidbodyNearby: 0
-  nearbyRigidbody: {fileID: 0}
 --- !u!65 &2000236386
 BoxCollider:
   m_ObjectHideFlags: 0
