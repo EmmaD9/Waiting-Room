@@ -5,6 +5,8 @@ using UnityEngine;
 public class DialogueTrigger : MonoBehaviour
 {
     public Dialogue dialogue;
+    [SerializeField] Rigidbody mc;
+    private Rigidbody rb;
 
     public void TriggerDialogue()
     {
@@ -17,11 +19,13 @@ public class DialogueTrigger : MonoBehaviour
     }
 
     void OnMouseDown()
-    { 
-        // This method is called when the user clicks on the GameObject
-        Debug.Log("GameObject clicked!");
-        TriggerDialogue();
-        // Trigger your custom event here 
-        // e.g., Call a method or change a property
+    {
+      
+            // This method is called when the user clicks on the GameObject
+            Debug.Log("GameObject clicked!");
+            TriggerDialogue();
+            // Trigger your custom event here 
+            // e.g., Call a method or change a property
+
     }
 }
